@@ -1,0 +1,60 @@
+/* Container and Wrapper */
+.app-container {
+  background-color: #c0d6f5;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper {
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Individual Cards */
+.balance-card, .summary-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.top-section {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.balance-card {
+  flex: 2; /* Takes more space than chart */
+}
+
+/* Side-by-side Income/Expense */
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.summary-card {
+  flex: 1;
+}
+
+.summary-card h5 {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.money {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.money.plus { color: #2ecc71; }
+.money.minus { color: #e74c3c; }
