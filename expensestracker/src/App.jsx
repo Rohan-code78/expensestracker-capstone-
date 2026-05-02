@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Balance from './components/Balance';
-import IncomeExpense from './components/IncomeExpense';
-import TransactionList from './components/TransactionList';
-import AddTransaction from './components/AddTransaction';
-import TransactionChart from './components/TransactionChart';
+import IncomeExpense from './Components/IncomeExpense';
+import TransactionList from './Components/TransactionList';
+import AddTransaction from './Components/AddTransaction';
+import TransactionChart from './Components/TransactionChart';
 import './App.css';
 
 function App() {
