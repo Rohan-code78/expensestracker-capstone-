@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Balance from './components/Balance';
+import Balance from './Components/Balance';
 import IncomeExpense from './Components/IncomeExpense';
 import TransactionList from './Components/TransactionList';
 import AddTransaction from './Components/AddTransaction';
